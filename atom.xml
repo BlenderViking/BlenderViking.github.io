@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://BlenderViking.github.io/"/>
-  <updated>2016-12-05T12:50:29.565Z</updated>
+  <updated>2016-12-05T13:08:22.441Z</updated>
   <id>https://BlenderViking.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://BlenderViking.github.io/2016/12/05/ONEPLUS-X-SMS-Phone-Call-Backup-important-data-from-your-phone-PART-2/"/>
     <id>https://BlenderViking.github.io/2016/12/05/ONEPLUS-X-SMS-Phone-Call-Backup-important-data-from-your-phone-PART-2/</id>
     <published>2016-12-05T11:30:13.000Z</published>
-    <updated>2016-12-05T12:50:29.565Z</updated>
+    <updated>2016-12-05T13:08:22.441Z</updated>
     
     <content type="html"><![CDATA[<p>Hi,</p><p>There is my second post about Android Backup on my way to upgrade my OnePlus X from OxygenOS to CM14.</p><p>In the first part, we talk about <a href="/2016/12/05/ONEPLUS-X-Contact-Backup-important-data-from-your-phone-PART-1/">Contact Backup</a>, for the second part, we going to talk about SMS / MMS / Phone call historic backup :-)</p><h1 id="SMS-MMS-Phone-call-log-Backup-SMS-Backup"><a href="#SMS-MMS-Phone-call-log-Backup-SMS-Backup" class="headerlink" title="SMS / MMS / Phone call log Backup - SMS Backup+"></a>SMS / MMS / Phone call log Backup - SMS Backup+</h1><p>For the sms backup a recommend to use this OpenSource app : <a href="https://github.com/jberkel/sms-backup-plus" target="_blank" rel="external">SMS Backup+</a></p><p>The concept of this app is simple, it’s use an IMAP Server for backup / restore all sms on your device.</p><p>Here some features provide by SMS Backup+ extract from the GitHub app:</p><ul><li>New restore feature. SMS stored on Gmail can be transferred back to the phone. This even works for users who have already created their backups with older versions of SMS Backup. Note: MMS are currently not restored.</li><li>XOAuth: SMS Backup+ will never ask you for your Gmail password. Instead it uses XOAuth to get access to your data. You can revoke the access rights at any time.</li><li>MMS backup support (since 1.1), only available on Android 2.x</li><li>Call log backup (since 1.2), with Google Calendar integration (since 1.3.) and restore (since 1.4).</li><li>Batch size limits removed.</li><li>Works with any IMAP server (but defaults to Gmail).</li></ul><h1 id="Backup-Items"><a href="#Backup-Items" class="headerlink" title="Backup Items"></a>Backup Items</h1><h2 id="Using-your-own-IMAP-Server"><a href="#Using-your-own-IMAP-Server" class="headerlink" title="Using your own IMAP Server"></a>Using your own IMAP Server</h2><p>Go to <code>Advanced setting &gt; IMAP server</code> setting for configure your IMAP Server config</p><p><img src="/images/ONEPLUS-X-How-to-install-TWRP/backup/sms/0.png" alt="SMS Backup+" title="SMS Backup+"></p><h2 id="Using-Gmail"><a href="#Using-Gmail" class="headerlink" title="Using Gmail"></a>Using Gmail</h2><p>If you using a Gmail account, you just need to clic on the Connect section in center of the screen :</p><p><img src="/images/ONEPLUS-X-How-to-install-TWRP/backup/sms/1.png" alt="SMS Backup+" title="SMS Backup+"></p><h3 id="Select-your-account"><a href="#Select-your-account" class="headerlink" title="Select your account"></a>Select your account</h3><p><img src="/images/ONEPLUS-X-How-to-install-TWRP/backup/sms/2.png" alt="SMS Backup+" title="SMS Backup+"></p><h3 id="Allow-it-your-Gmail-access"><a href="#Allow-it-your-Gmail-access" class="headerlink" title="Allow it your Gmail access"></a>Allow it your Gmail access</h3><p><img src="/images/ONEPLUS-X-How-to-install-TWRP/backup/sms/3.png" alt="SMS Backup+" title="SMS Backup+"></p><h3 id="Add-begin-the-backup"><a href="#Add-begin-the-backup" class="headerlink" title="Add begin the backup"></a>Add begin the backup</h3><p><img src="/images/ONEPLUS-X-How-to-install-TWRP/backup/sms/4.png" alt="SMS Backup+" title="SMS Backup+"></p><p><img src="/images/ONEPLUS-X-How-to-install-TWRP/backup/sms/5.png" alt="SMS Backup+" title="SMS Backup+"></p><h1 id="Restore-Items"><a href="#Restore-Items" class="headerlink" title="Restore Items"></a>Restore Items</h1><p>You just need to click on restore button and define temporary the backup app as your sms app.</p><p><img src="/images/ONEPLUS-X-How-to-install-TWRP/backup/sms/6.png" alt="SMS Backup+" title="SMS Backup+"></p><p><img src="/images/ONEPLUS-X-How-to-install-TWRP/backup/sms/7.png" alt="SMS Backup+" title="SMS Backup+"></p><p><img src="/images/ONEPLUS-X-How-to-install-TWRP/backup/sms/8.png" alt="SMS Backup+" title="SMS Backup+"></p><p>And you have correctly restore you items, see the notification area popup a lot of old message restored</p><p><img src="/images/ONEPLUS-X-How-to-install-TWRP/backup/sms/9.png" alt="SMS Backup+" title="SMS Backup+"></p><p>And we have now a backup for your SMS / MMS / Phone Call log.</p><p>Enjoy !</p>]]></content>
     
@@ -32,12 +32,12 @@
     
       <category term="Custom Android Rom" scheme="https://BlenderViking.github.io/categories/Custom-Android-Rom/"/>
     
+      <category term="Backup Android" scheme="https://BlenderViking.github.io/categories/Custom-Android-Rom/Backup-Android/"/>
+    
     
       <category term="Android" scheme="https://BlenderViking.github.io/tags/Android/"/>
     
-      <category term="TWRP" scheme="https://BlenderViking.github.io/tags/TWRP/"/>
-    
-      <category term="Custom Recovery" scheme="https://BlenderViking.github.io/tags/Custom-Recovery/"/>
+      <category term="Backup" scheme="https://BlenderViking.github.io/tags/Backup/"/>
     
   </entry>
   
